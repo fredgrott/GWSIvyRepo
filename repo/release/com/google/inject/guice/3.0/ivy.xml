@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one
+   or more contributor license agreements.  See the NOTICE file
+   distributed with this work for additional information
+   regarding copyright ownership.  The ASF licenses this file
+   to you under the Apache License, Version 2.0 (the
+   "License"); you may not use this file except in compliance
+   with the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing,
+   software distributed under the License is distributed on an
+   "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+   KIND, either express or implied.  See the License for the
+   specific language governing permissions and limitations
+   under the License.    
+-->
+<ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+    <info
+        organisation="com.google.inject"
+        module="guice"
+        revision="3.0"
+        publication="011013"
+        status="release">
+        <license name="Apache License 2.0-" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+        <ivyauthor name="Fred Grott, GrottWorkShop" url="http://about.me/fredrott"/>
+        <description homepage="http://code.google.com/p/google-guice/">
+      Put simply, Guice alleviates the need for factories and the use of new in your Java code. 
+      Think of Guice's @Inject as the new new. You will still need to write factories in some cases, 
+      but your code will not depend directly on them. Your code will be easier to change, unit test 
+      and reuse in other contexts.
+
+      Guice embraces Java's type safe nature, especially when it comes to features introduced in 
+      Java 5 such as generics and annotations. You might think of Guice as filling in missing features 
+      for core Java. Ideally, the language itself would provide most of the same features, but until 
+      such a language comes along, we have Guice.
+
+      Guice helps you design better APIs, and the Guice API itself sets a good example. Guice is not 
+      a kitchen sink. We justify each feature with at least three use cases. When in doubt, we leave it 
+      out. We build general functionality which enables you to extend Guice rather than adding every
+       feature to the core framework.
+
+      Guice aims to make development and debugging easier and faster, not harder and slower. 
+      In that vein, Guice steers clear of surprises and magic. You should be able to understand code 
+      with or without tools, though tools can make things even easier. When errors do occur, Guice 
+      goes the extra mile to generate helpful messages.
+        </description>
+	</info>
+	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
+           <artifact name="guice-3.0-no_aop" type="jar" ext="jar"/>
+    </publications>
+</ivy-module>
