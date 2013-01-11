@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one
+   or more contributor license agreements.  See the NOTICE file
+   distributed with this work for additional information
+   regarding copyright ownership.  The ASF licenses this file
+   to you under the Apache License, Version 2.0 (the
+   "License"); you may not use this file except in compliance
+   with the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing,
+   software distributed under the License is distributed on an
+   "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+   KIND, either express or implied.  See the License for the
+   specific language governing permissions and limitations
+   under the License.    
+-->
+<ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+    <info
+        organisation="com.nineoldandroids"
+        module="nineoldandroids"
+        revision="2.4.0"
+        publication="011013"
+        status="release">
+           <license name="Apache License 2.0-" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+        <ivyauthor name="Fred Grott, GrottWorkShop" url="http://about.me/fredrott"/>
+        <description homepage="http://nineoldandroids.com/">
+      Android library for using the Honeycomb (Android 3.0) animation API on all versions 
+      of the platform back to 1.0!
+
+      Animation prior to Honeycomb was very limited in what it could accomplish so in 
+      Android 3.x a new API was written. With only a change in imports, we are able to 
+      use a large subset of the new-style animation with exactly the same API.
+
+      This library also includes support for animating rotation, translation, alpha, 
+      and scale on platforms prior to Honeycomb!
+        </description>
+	</info>
+	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
+           <artifact name="nineoldandroids-2.4.0" type="jar" ext="jar"/>
+    </publications>
+</ivy-module>
