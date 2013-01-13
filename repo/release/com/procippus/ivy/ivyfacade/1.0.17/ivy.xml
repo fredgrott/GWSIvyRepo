@@ -36,6 +36,6 @@
 	</info>
 	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
            <artifact name="IvyFacade-docs-1.0.17" type="javadoc" ext="jar" e:classifier="javadoc"/>
-           <artifact name="ivyFacade-1.0.17" type="jar" ext="jar"/>
+           <artifact name="IvyFacade-1.0.17" type="jar" ext="jar"/>
     </publications>
 </ivy-module>
