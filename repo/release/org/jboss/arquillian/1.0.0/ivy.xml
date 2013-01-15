@@ -20,21 +20,26 @@
 <ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
     <info
-        organisation="org.mockito"
-        module="mockito"
-        revision="1.9.5"
-        publication="011413"
+        organisation="org.jboss"
+        module="arquillian"
+        revision="1.0.0"
+        publication="011513"
         status="release">
-          <license name="MIT License" url="http://opensource.org/licenses/MIT"/>
+        <license name="GNU LGPL 2.1 License" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
         <ivyauthor name="Fred Grott, GrottWorkShop" url="http://about.me/fredrott"/>
-        <description homepage="http://code.google.com/p/mockito/">
-   Mockito is a mocking framework that tastes really good. It lets you write beautiful tests with clean & simple API. Mockito doesn't 
-   give you hangover because the tests are very readable and they produce clean verification errors.
+        <description homepage="http://www.jboss.org/arquillian.html">
+  Arquillian is a revolutionary testing platform built on the JVM that substantially reduces the effort 
+  required to write and execute Java middleware integration and functional tests. No more mocks. 
+  No more container lifecycle and deployment hassles. Just real tests!
+
    </description>
 	</info>
 	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
-     <artifact name="mockito-core-1.9.5-javadoc" type="javadoc" ext="jar" e:classifier="javadoc"/>
-     <artifact name="mockito-core-1.9.5-sources" type="sources" ext="jar" e:classifier="sources" />
-      <artifact name="mockito-core-1.9.5" type="jar" ext="jar" />
+     <artifact name="arquillian-android-api-1.0.0.Alpha1" type="jar" ext="jar" />
+     <artifact name="arquillian-android-configuration-1.0.0.alpha1" type="jar" ext="jar" />
+     <artifact name="arquillian-android-drone-1.0.0.alpha1" type="jar" ext="jar" />
+     <artifact name="arquillian-android-spi-1.0.0.Alpha1" type="jar" ext="jar" />
+     <artifact name="arquillian-android-tests-1.0.0.Alpha1" type="jar" ext="jar" />
+     <artifact name="arquillian-drone-selenium-server-1.1.0.final" type="jar" ext="jar" />
       </publications>
 </ivy-module>

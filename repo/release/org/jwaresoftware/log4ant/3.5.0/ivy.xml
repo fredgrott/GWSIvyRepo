@@ -20,21 +20,22 @@
 <ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
     <info
-        organisation="org.mockito"
-        module="mockito"
-        revision="1.9.5"
-        publication="011413"
+        organisation="org.jwaresoftware"
+        module="log4ant"
+        revision="3.5.0"
+        publication="011513"
         status="release">
-          <license name="MIT License" url="http://opensource.org/licenses/MIT"/>
+        <license name="GNU LGPL 2.1 License" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
         <ivyauthor name="Fred Grott, GrottWorkShop" url="http://about.me/fredrott"/>
-        <description homepage="http://code.google.com/p/mockito/">
-   Mockito is a mocking framework that tastes really good. It lets you write beautiful tests with clean & simple API. Mockito doesn't 
-   give you hangover because the tests are very readable and they produce clean verification errors.
+        <description homepage="http://jwaresoftware.org/wiki/log4ant/home">
+   JWare/AntXtras Logging for Ant (Log4Ant) is a full bridge to the SLF4J library which is a simple façade for 
+   various logging frameworks like Log4J, Jakarta Commons Logging, and LOGBack. By using Log4Ant 
+   components you can easily capture, transform, and send all Ant messages, AntXtras messages, and 
+   standard output and error messages to your real logging and monitoring system. This means you 
+   can capture detailed information about your build, test, and deploy processes for live monitoring.
    </description>
 	</info>
 	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
-     <artifact name="mockito-core-1.9.5-javadoc" type="javadoc" ext="jar" e:classifier="javadoc"/>
-     <artifact name="mockito-core-1.9.5-sources" type="sources" ext="jar" e:classifier="sources" />
-      <artifact name="mockito-core-1.9.5" type="jar" ext="jar" />
+     <artifact name="jw-log4ant" type="jar" ext="jar" />
       </publications>
 </ivy-module>
