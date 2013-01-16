@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one
+   or more contributor license agreements.  See the NOTICE file
+   distributed with this work for additional information
+   regarding copyright ownership.  The ASF licenses this file
+   to you under the Apache License, Version 2.0 (the
+   "License"); you may not use this file except in compliance
+   with the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing,
+   software distributed under the License is distributed on an
+   "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+   KIND, either express or implied.  See the License for the
+   specific language governing permissions and limitations
+   under the License.    
+-->
+<ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+    <info
+        organisation="org.jbehave"
+        module="jbehave-core"
+        revision="4.0-beta-3"
+        publication="011613"
+        status="release">
+         <license name="BSD" url="http://jbehave.org/license.html"/>
+        <ivyauthor name="Fred Grott, GrottWorkShop" url="http://about.me/fredrott"/>
+        <description homepage="http://jbehave.org/">
+  JBehave is a framework for Behaviour-Driven Development (BDD). BDD is an evolution of test-driven development (TDD) and acceptance-test driven design, and is intended to make these practices more accessible and intuitive to newcomers and experts alike. It shifts the vocabulary
+   from being test-based to behaviour-based, and positions itself as a design philosophy.
+
+   </description>
+	</info>
+	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
+     <artifact name="jbehave-core-4.0-beta-3-javadoc" type="javadoc" ext="jar" e:classifier="javadoc"/>
+     <artifact name="jbehave-core-4.0-beta-3" type="jar" ext="jar" />
+      </publications>
+</ivy-module>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     Jan 16, 2013 10:27:56 AM                                                        
+
+     GWSIvyRepo    
+     project to build an ivy repo at a local user home directory
+                   
+     fredgrott                                                                
+     ====================================================================== -->
+<project name="GWSIvyRepo" default="default">
+    <description>
+            project to build an ivy repo at a local user home directory
+    </description>
+
+    <!-- ================================= 
+          target: default              
+         ================================= -->
+    <target name="default" depends="depends" description="project to build an ivy repo at alocal user home directory">
+        
+    </target>
+
+    <!-- - - - - - - - - - - - - - - - - - 
+          target: depends                      
+         - - - - - - - - - - - - - - - - - -->
+    <target name="depends">
+    </target>
+
+</project>
