@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one
+   or more contributor license agreements.  See the NOTICE file
+   distributed with this work for additional information
+   regarding copyright ownership.  The ASF licenses this file
+   to you under the Apache License, Version 2.0 (the
+   "License"); you may not use this file except in compliance
+   with the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing,
+   software distributed under the License is distributed on an
+   "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+   KIND, either express or implied.  See the License for the
+   specific language governing permissions and limitations
+   under the License.    
+-->
+<ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+    <info
+        organisation="org.jwaresoftware"
+        module="log4ant"
+        revision="3.5.0b2"
+        publication="011513"
+        status="release">
+        <license name="GNU LGPL 2.1 License" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+        <ivyauthor name="Fred Grott, GrottWorkShop" url="http://about.me/fredrott"/>
+        <description homepage="http://jwaresoftware.org/wiki/log4ant/home">
+   JWare/AntXtras Logging for Ant (Log4Ant) is a full bridge to the SLF4J library which is a simple façade for 
+   various logging frameworks like Log4J, Jakarta Commons Logging, and LOGBack. By using Log4Ant 
+   components you can easily capture, transform, and send all Ant messages, AntXtras messages, and 
+   standard output and error messages to your real logging and monitoring system. This means you 
+   can capture detailed information about your build, test, and deploy processes for live monitoring.
+   </description>
+	</info>
+	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
+     <artifact name="jw-log4ant" type="jar" ext="jar" />
+      </publications>
+</ivy-module>

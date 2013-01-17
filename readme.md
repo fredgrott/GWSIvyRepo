@@ -57,12 +57,15 @@ the  few ivy lines rather than have to change ivy files in the repo.
 Ivy can be confusing for someone that has not been exposed to any dependency 
 artifact system before and thus some guidance might be:
 
+[How Ivy Works](http://ant.apache.org/ivy/history/latest-milestone/principle.html)
+
+
 [Tutorials](http://ant.apache.org/ivy/history/latest-milestone/tutorial.html)
 
 its the best way as the typical Apache Ant in Action or ProApache ANT books give 
 scant coverage of how to ue apache Ivy.
 
-[Best Practices](http://ant.apache.org/ivy/history/2.2.0/bestpractices.html)
+[Best Practices](http://ant.apache.org/ivy/history/latest-milestone/bestpractices.html)
 
 
 
