@@ -34,6 +34,7 @@ for unit testing frameworks.
 	</info>
 	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
       <artifact name="junit-4.11-javadoc" type="javadoc" ext="jar" e:classifier="javadoc"/>
+      <artifact name="junit-4.11-sources" type="sources" ext="jar" e:classifier="sources"/>
       <artifact name="junit-4.11" type="jar" ext="jar" />
       </publications>
 </ivy-module>

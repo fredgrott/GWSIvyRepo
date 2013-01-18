@@ -39,6 +39,8 @@ expectations to actual results.
    </description>
 	</info>
 	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
-      <artifact name="fitnesse" type="jar" ext="jar" />
+      <artifact name="fitnesse-20121220-javadoc" type="javadoc" ext="jar"  e:classifier="javadoc"/>
+      <artifact name="fitnesse-20121220-sources" type="sources" ext="jar"  e:classifier="sources"/>
+      <artifact name="fitnesse-20121220" type="jar" ext="jar"  />
       </publications>
 </ivy-module>

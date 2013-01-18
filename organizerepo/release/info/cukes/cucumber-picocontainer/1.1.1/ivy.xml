@@ -33,5 +33,7 @@ picocontainer adapter for cucumber BDD test framework
 	</info>
 	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
       <artifact name="cucumber-picocontainer-1.1.1" type="jar" ext="jar" />
+      <artifact name="cucumber-picocontainer-1.1.1-javadoc" type="javadoc" ext="jar"  e:calssifier="javadoc"/>
+      <artifact name="cucumber-picocontainer-1.1.1-sources" type="sources" ext="jar"  e:classifier="sources"/>
       </publications>
 </ivy-module>

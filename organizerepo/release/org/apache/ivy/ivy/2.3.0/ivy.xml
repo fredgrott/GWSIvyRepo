@@ -35,6 +35,7 @@
 	</info>
 	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
            <artifact name="ivy-2.3.0-rc2-javadoc" type="javadoc" ext="jar" e:classifier="javadoc"/>
+           <artifact name="ivy-2.3.0-rc2-sources" type="sources" ext="jar" e:classifier="sources"/>
            <artifact name="ivy-2.3.0-rc2" type="jar" ext="jar"/>
     </publications>
 </ivy-module>

@@ -34,6 +34,7 @@
 	</info>
 	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
            <artifact name="gradle-android-plugin-1.2.1-javadoc" type="javadoc" ext="jar" e:classifier="javadoc"/>
+           <artifact name="gradle-android-plugin-1.2.1-sources" type="sources" ext="jar" e:classifier="sources"/>
            <artifact name="gradle-android-plugin-1.2.1" type="jar" ext="jar"/>
     </publications>
 </ivy-module>

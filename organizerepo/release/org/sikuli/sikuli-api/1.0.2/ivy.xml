@@ -35,6 +35,7 @@
 	</info>
 	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
      <artifact name="sikuli-api-1.0.2-javadoc" type="javadoc" ext="jar" e:classifier="javadoc"/>
+     <artifact name="sikuli-api-1.0.2-sources" type="sources" ext="jar" e:classifier="sources"/>
      <artifact name="sikuli-api-1.0.2" type="jar" ext="jar" />
       </publications>
 </ivy-module>

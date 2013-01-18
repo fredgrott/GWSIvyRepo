@@ -36,5 +36,7 @@
 	</info>
 	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
      <artifact name="picocontainer--2.14.3" type="jar" ext="jar" />
+     <artifact name="picocontainer--2.14.3-javadoc" type="javadoc" ext="jar"  e:classifier="javadoc"/>
+     <artifact name="picocontainer--2.14.3-sources" type="sources" ext="jar" e:classifier="sources" />
      </publications> 
 </ivy-module>

@@ -20,21 +20,23 @@
 <ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
     <info
-        organisation="org.sikuli"
-        module="sikuli-webdriver"
-        revision="1.0.1"
-        publication="011613"
+        organisation="org.slf4j"
+        module="slf4j-api"
+        revision="1.7.0"
+        publication="011713"
         status="release">
-        <license name="MIT License" url="http://opensource.org/licenses/MIT"/>
+        <license name="MIT License" url="http://www.slf4j.org/license.html"/>
         <ivyauthor name="Fred Grott, GrottWorkShop" url="http://about.me/fredrott"/>
-        <description homepage="http://www.sikuli.org/">
-    Sikuli Script automates anything you see on the screen. It uses image recognition to identify and 
-    control GUI components. It is useful when there is no easy access to a GUI's internal or source code.
+        <description homepage="http://wwwslf4j.org/">
+    The Simple Logging Facade for Java or (SLF4J) serves as a simple facade or abstraction 
+    for various logging frameworks, e.g. java.util.logging, log4j and logback, allowing the end 
+    user to plug in the desired logging framework at deployment time.
     
         </description>
 	</info>
 	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
-      <artifact name="sikuli-webdriver-1.0.1-javadoc" type="javadoc" ext="jar" e:classifier="javadoc"/>
-      <artifact name="sikuli-webdriver-1.0.1" type="jar" ext="jar" />
+     <artifact name="slf4j-api-1.7.0-javadoc" type="javadoc" ext="jar" e:classifier="javadoc"/>
+      <artifact name="slf4j-api-1.7.0-sources" type="sources" ext="jar" e:classifier="sources"/>
+      <artifact name="slf4j-api-1.7.0" type="jar" ext="jar" />
       </publications>
 </ivy-module>

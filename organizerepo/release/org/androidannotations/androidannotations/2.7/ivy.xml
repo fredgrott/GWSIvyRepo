@@ -35,6 +35,7 @@
 	</info>
 	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
            <artifact name="androidannotations-2.7-javadoc" type="javadoc" ext="jar" e:classifier="javadoc"/>
+           <artifact name="androidannotations-2.7-sources" type="sources" ext="jar" e:classifier="sources"/>
            <artifact name="androidannotations-2.7" type="jar" ext="jar"/>
     </publications>
 </ivy-module>

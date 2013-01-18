@@ -33,6 +33,7 @@
 	</info>
 	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
             <artifact name="unifiedpreference-0.0.2-javadoc" type="javadoc" ext="jar" e:classifier="javadoc"/>
+            <artifact name="unifiedpreference-0.0.2-sources" type="sources" ext="jar" e:classifier="sources"/>
             <artifact name="unifiedpreference-0.0.2" type="jar" ext="jar"/>
     </publications>
 </ivy-module>

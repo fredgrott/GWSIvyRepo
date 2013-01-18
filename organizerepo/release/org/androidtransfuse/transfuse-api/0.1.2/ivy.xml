@@ -34,6 +34,7 @@
 	</info>
 	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
            <artifact name="transfuse-api-0.1.2-javadoc" type="javadoc" ext="jar" e:classifier="javadoc"/>
+           <artifact name="transfuse-api-0.1.2-sources" type="sources" ext="jar" e:classifier="sources"/>
            <artifact name="transfuse-api-0.1.2" type="jar" ext="jar"/>
     </publications>
 </ivy-module>

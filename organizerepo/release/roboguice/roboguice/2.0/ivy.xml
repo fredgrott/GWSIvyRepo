@@ -34,6 +34,7 @@
 	</info>
 	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
            <artifact name="roboguice-2.0--javadoc" type="javadoc" ext="jar" e:classifier="javadoc"/>
+            <artifact name="roboguice-2.0--sources" type="sources" ext="jar" e:classifier="sources"/>
            <artifact name="roboguice-2.0" type="jar" ext="jar"/>
     </publications>
 </ivy-module>

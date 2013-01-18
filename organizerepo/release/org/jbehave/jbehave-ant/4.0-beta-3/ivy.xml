@@ -34,7 +34,8 @@
    </description>
 	</info>
 	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
-     <artifact name="jbehave-ant-4.0-beta-3javadoc" type="javadoc" ext="jar" e:classifier="javadoc"/>
+     <artifact name="jbehave-ant-4.0-beta-3-javadoc" type="javadoc" ext="jar" e:classifier="javadoc"/>
+      <artifact name="jbehave-ant-4.0-beta-3-sources" type="sources" ext="jar" e:classifier="sources"/>
      <artifact name="jbehave-ant-4.0-beta-3" type="jar" ext="jar" />
       </publications>
 </ivy-module>
