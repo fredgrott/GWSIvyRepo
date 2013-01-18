@@ -41,5 +41,7 @@
 	</info>
 	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
            <artifact name="library-2.4.0" type="jar" ext="jar"/>
+           <artifact name="library-2.4.0-javadoc" type="javadoc" ext="jar" e:classifier="javadoc"/>
+           <artifact name="library-2.4.0-sources" type="sources" ext="jar" e:classifier="sources"/>
     </publications>
 </ivy-module>

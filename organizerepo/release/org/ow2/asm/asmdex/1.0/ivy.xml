@@ -20,20 +20,21 @@
 <ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
     <info
-        organisation="ch.qos.logback"
-        module="logbackandroid"
-        revision="1.0.7.1"
-        publication="011013"
+        organisation="org.ow2.asm"
+        module="asmdex"
+        revision="1.0"
+        publication="011813"
         status="release">
-        <license name="EPL v1.0 and the LGPL 2.1" url="http://tony19.github.com/logback-android/"/>
+        <license name="OW2 license-BSD like" url="http://asm.ow2.org/license.html"/>
         <ivyauthor name="Fred Grott, GrottWorkShop" url="http://about.me/fredrott"/>
-        <description homepage="http://tony19.github.com/logback-android/">
-        logback-android brings the power of logback to Android. logback is a reliable, generic, fast, and 
-        flexible logging library for Java applications.
+        <description homepage="http://asm.ow2.org/asmdex-index.html">
+    ASMDEX is a bytecode manipulation library as ASM but it handles the DEX bytecode used by Android executables. 
+    Only the core library, the tree library and a tool to convert bytecode to code generating it (asmdexifier) are available. 
+    The underlying principle while developing ASMDEX was to keep it very similar to ASM to ease the cost of porting tools 
+    done for Oracle Java bytecode to Android bytecode.
         </description>
 	</info>
 	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
-           <artifact name="logback-android-1.0.7-1" type="jar" ext="jar"/>
-           <artifact name="slf4j-api-1.7.1" type="jar" ext="jar"/>
-    </publications>
+     <artifact name="asmdex-1.0" type="jar" ext="jar" />
+     </publications> 
 </ivy-module>

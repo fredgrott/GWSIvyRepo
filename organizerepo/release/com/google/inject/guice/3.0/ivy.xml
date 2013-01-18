@@ -51,5 +51,7 @@
 	</info>
 	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
            <artifact name="guice-3.0-no_aop" type="jar" ext="jar"/>
+           <artifact name="guice-3.0-javadoc" type="javadoc" ext="jar" e:classifier="javadoc"/>
+           <artifact name="guice-3.0-javadoc" type="sources" ext="jar" e:classifier="sources"/>
     </publications>
 </ivy-module>

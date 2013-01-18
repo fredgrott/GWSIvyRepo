@@ -37,6 +37,7 @@
 	</info>
 	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
             <artifact name="ormlite-android-4.42-javadoc" type="javadoc" ext="jar" e:classifier="javadoc"/>
+            <artifact name="ormlite-android-4.42-sources" type="sources" ext="jar" e:classifier="sources"/>
             <artifact name="ormlite-android-4.42" type="jar" ext="jar"/>
     </publications>
 </ivy-module>

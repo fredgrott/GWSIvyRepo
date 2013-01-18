@@ -41,5 +41,7 @@
 	</info>
 	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
            <artifact name="checkstyle-5.6" type="jar" ext="jar"/>
+           <artifact name="checkstyle-5.6-javadoc" type="javadoc" ext="jar" e:classifier="javadoc"/>
+           <artifact name="checkstyle-5.6-sources" type="sources" ext="jar" e:classifier="sources"/>
     </publications>
 </ivy-module>
