@@ -37,10 +37,18 @@
     and/or for each function.
         </description>
 	</info>
-	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
-            <artifact name="ccl" type="jar" ext="jar"/>
-            <artifact name="javacc" type="jar" ext="jar"/>
-            <artifact name="javancss" type="jar" ext="jar"/>
-            <artifact name="jhbasicl" type="jar" ext="jar"/>
+	<configurations>
+        <conf name="runtime" description="runtime"/>
+         <conf name="compile" description="for compiling"/>
+         <conf name="aptfactory" description="for annotations, aop, etc"/>
+         <conf name="javadoc" description="for javadoc"/>
+         <conf name="sources" description="sources"/>
+         <conf name="anttask" description="ant task library"/>
+      </configurations>
+	<publications >
+            <artifact name="ccl" type="jar" ext="jar" conf="anttask"/>
+            <artifact name="javacc" type="jar" ext="jar" conf="anttask"/>
+            <artifact name="javancss" type="jar" ext="jar" conf="anttask"/>
+            <artifact name="jhbasicl" type="jar" ext="jar" conf="anttask"/>
     </publications>
 </ivy-module>

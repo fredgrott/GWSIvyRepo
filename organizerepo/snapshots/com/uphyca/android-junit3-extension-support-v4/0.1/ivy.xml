@@ -20,15 +20,16 @@
 <ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
     <info
-        organisation="javancss2ant"
-        module="javancss2ant"
-        revision="11"
-        publication="011213"
-        status="release">
-              <license name="GNU General Public License" url="http://www.gnu.org/licenses/gpl-2.0.html"/>
+        organisation="com.uphyca"
+        module="android-junit3_extension-support-v4"
+        revision="0.1"
+        publication="011913"
+        status="milestone">
+        <license name="Apache License 2.0-" url="http://www.apache.org/licenses/LICENSE-2.0"/>
         <ivyauthor name="Fred Grott, GrottWorkShop" url="http://about.me/fredrott"/>
-        <description homepage="http://sourceforge.net/projects/javancss2ant/">
-     Ant task for javancss.
+        <description homepage="https://github.com/esmasui/AndroidJUnit4">
+      AndroidJUnit4 is a framework to running JUnit4 tests on Android devices with Eclipse/ADT or 
+      command line tools.
         </description>
 	</info>
 	<configurations>
@@ -38,8 +39,13 @@
          <conf name="javadoc" description="for javadoc"/>
          <conf name="sources" description="sources"/>
          <conf name="anttask" description="ant task library"/>
+         <conf name="gradle" description="gradle plugins"/>
+         <conf name="aspectjrt" description="aop"/>
+         <conf name="aspectjweaver" description="asepctj weaver"/>
+         <conf name="aspectjtools" description="aspectjtools"/>
+         <conf name="ejc" description-"eclipse java compiler"/>
       </configurations>
-	<publications >
-            <artifact name="javancss2ant" type="jar" ext="jar" conf="anttask"/>
+      <publications >
+           <artifact name="android-junit3-extension-support-v4-0.1-SNAPSHOT" type="jar" ext="jar" conf="compile"/>
     </publications>
 </ivy-module>

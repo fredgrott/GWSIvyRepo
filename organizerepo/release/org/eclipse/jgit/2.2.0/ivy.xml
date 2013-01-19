@@ -31,8 +31,21 @@
  lightweight, pure Java library implementing the Git  ant task
    </description>
 	</info>
-	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
-      <artifact name="org.eclipse.jgit-2.2.0.201212191850-r-javadoc" type="javadoc" ext="jar" e:classifier="javadoc"/>
-      <artifact name="org.eclipse.jgit-2.2.0.201212191850-r" type="jar" ext="jar" />
+	<configurations>
+        <conf name="runtime" description="runtime"/>
+         <conf name="compile" description="for compiling"/>
+         <conf name="aptfactory" description="for annotations, aop, etc"/>
+         <conf name="javadoc" description="for javadoc"/>
+         <conf name="sources" description="sources"/>
+         <conf name="anttask" description="ant task library"/>
+         <conf name="gradle" description="gradle plugins"/>
+         <conf name="aspectjrt" description="aop"/>
+         <conf name="aspectjweaver" description="asepctj weaver"/>
+         <conf name="aspectjtools" description="aspectjtools"/>
+         <conf name="ejc" description-"eclipse java compiler"/>
+      </configurations>
+	<publications >
+      <artifact name="org.eclipse.jgit-2.2.0.201212191850-r-javadoc" type="javadoc" ext="jar" conf="javadoc"/>
+      <artifact name="org.eclipse.jgit-2.2.0.201212191850-r" type="jar" ext="jar" conf="anttask" />
       </publications>
 </ivy-module>

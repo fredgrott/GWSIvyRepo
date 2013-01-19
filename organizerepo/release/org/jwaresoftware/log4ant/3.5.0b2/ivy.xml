@@ -35,7 +35,20 @@
    can capture detailed information about your build, test, and deploy processes for live monitoring.
    </description>
 	</info>
-	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
-     <artifact name="jw-log4ant" type="jar" ext="jar" />
+	<configurations>
+        <conf name="runtime" description="runtime"/>
+         <conf name="compile" description="for compiling"/>
+         <conf name="aptfactory" description="for annotations, aop, etc"/>
+         <conf name="javadoc" description="for javadoc"/>
+         <conf name="sources" description="sources"/>
+         <conf name="anttask" description="ant task library"/>
+         <conf name="gradle" description="gradle plugins"/>
+         <conf name="aspectjrt" description="aop"/>
+         <conf name="aspectjweaver" description="asepctj weaver"/>
+         <conf name="aspectjtools" description="aspectjtools"/>
+         <conf name="ejc" description-"eclipse java compiler"/>
+      </configurations>
+	<publications >
+     <artifact name="jw-log4ant" type="jar" ext="jar" conf="anttask" />
       </publications>
 </ivy-module>

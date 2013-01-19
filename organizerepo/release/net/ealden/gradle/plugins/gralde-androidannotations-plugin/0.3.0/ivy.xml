@@ -31,9 +31,18 @@
       Gradle plugin for androidannotations
         </description>
 	</info>
-	<publications xmlns:e="urn:ant.apache.org:ivy-extras">
-           <artifact name="gralde-androidannotations-plugin-0.3.0" type="jar" ext="jar"/>
-           <artifact name="gralde-androidannotations-plugin-0.3.0-javadoc" type="javadoc" ext="jar" e:classifier="javadoc"/>
-           <artifact name="gralde-androidannotations-plugin-0.3.0-sources" type="sources" ext="jar" e:classifier="sources"/>
+	<configurations>
+        <conf name="runtime" description="runtime"/>
+         <conf name="compile" description="for compiling"/>
+         <conf name="aptfactory" description="for annotations, aop, etc"/>
+         <conf name="javadoc" description="for javadoc"/>
+         <conf name="sources" description="sources"/>
+         <conf name="anttask" description="ant task library"/>
+         <conf name="gradle" description="gradle plugins"/>
+      </configurations>
+	<publications >
+           <artifact name="gralde-androidannotations-plugin-0.3.0" type="jar" ext="jar" conf="gradle"/>
+           <artifact name="gralde-androidannotations-plugin-0.3.0-javadoc" type="javadoc" ext="jar" conf="javadoc"/>
+           <artifact name="gralde-androidannotations-plugin-0.3.0-sources" type="sources" ext="jar" conf="sources"/>
     </publications>
 </ivy-module>
