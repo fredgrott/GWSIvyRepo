@@ -43,6 +43,7 @@
          <conf name="aspectjweaver" description="asepctj weaver"/>
          <conf name="aspectjtools" description="aspectjtools"/>
          <conf name="ejc" description-"eclipse java compiler"/>
+         <conf name="jdepend" description="jdepend"/>
       </configurations>
 	<publications >
       <artifact name="org.eclipse.birt-runtime-4.2.1" type="jar" ext="jar"  conf="runtime"/>

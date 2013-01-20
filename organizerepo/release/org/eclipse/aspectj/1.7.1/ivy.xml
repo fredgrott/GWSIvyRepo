@@ -43,6 +43,7 @@
          <conf name="aspectjweaver" description="asepctj weaver"/>
          <conf name="aspectjtools" description="aspectjtools"/>
          <conf name="ejc" description-"eclipse java compiler"/>
+         <conf name="jdepend" description="jdepend"/>
       </configurations>
 	<publications >
       <artifact name="aspectjrt-1.7.1" type="jar" ext="jar" conf="aspectjrt" />

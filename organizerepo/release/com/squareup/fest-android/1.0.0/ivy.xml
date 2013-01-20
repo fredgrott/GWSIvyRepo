@@ -20,16 +20,15 @@
 <ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
     <info
-        organisation="org.androidtransfuse"
-        module="transfuse-api"
-        revision="0.1.2"
-        publication="011613"
+        organisation="com.squareup"
+        module="fest-android"
+        revision="1.0.0"
+        publication="012013"
         status="release">
-            <license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+        <license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0"/>
         <ivyauthor name="Fred Grott, GrottWorkShop" url="http://about.me/fredrott"/>
-        <description homepage="http://androidtransfuse.org/">
-      Transfuse is a Java Dependency Injection (DI) and integration library geared 
-      specifically for the Google Android API.
+        <description homepage="https://github.com/square/fest-android">
+      A set of FEST assertion helpers geared toward testing Android.
         </description>
 	</info>
 	<configurations>
@@ -44,11 +43,10 @@
          <conf name="aspectjweaver" description="asepctj weaver"/>
          <conf name="aspectjtools" description="aspectjtools"/>
          <conf name="ejc" description-"eclipse java compiler"/>
-         <conf name="jdepend" description="jdepend"/>
       </configurations>
-	<publications >
-           <artifact name="transfuse-api-0.1.2-javadoc" type="javadoc" ext="jar" conf="javadoc"/>
-           <artifact name="transfuse-api-0.1.2-sources" type="sources" ext="jar" conf="sources"/>
-           <artifact name="transfuse-api-0.1.2" type="jar" ext="jar" conf="compile"/>
+    <publications >
+           <artifact name="fest-android-.1.0.0" type="jar" ext="jar" conf="compile"/>
+            <artifact name="fest-android-1.0.0-javadoc" type="javadoc" ext="jar" conf="javadoc"/>
+             <artifact name="fest-android-1.0.0-sources" type="sources" ext="jar" conf="sources"/>
     </publications>
 </ivy-module>

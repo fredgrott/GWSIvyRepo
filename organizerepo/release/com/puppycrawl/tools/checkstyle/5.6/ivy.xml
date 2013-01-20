@@ -45,7 +45,12 @@
          <conf name="aptfactory" description="for annotations, aop, etc"/>
          <conf name="javadoc" description="for javadoc"/>
          <conf name="sources" description="sources"/>
-         <conf name="antask" description="ant task library"/>
+         <conf name="anttask" description="ant task library"/>
+         <conf name="gradle" description="gradle plugins"/>
+         <conf name="aspectjrt" description="aop"/>
+         <conf name="aspectjweaver" description="asepctj weaver"/>
+         <conf name="aspectjtools" description="aspectjtools"/>
+         <conf name="ejc" description-"eclipse java compiler"/>
       </configurations>
 	<publications >
            <artifact name="checkstyle-5.6" type="jar" ext="jar" conf="anttask"/>

@@ -20,22 +20,21 @@
 <ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
     <info
-        organisation="org.fest.assertions"
-        module="fest-assertions-android"
-        revision="2.0"
-        publication="011413"
-        status="milestone">
+        organisation="de.keyboardsurfer.android.widget"
+        module="Crouton"
+        revision="1.6"
+        publication="012013"
+        status="release">
          <license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0"/>
         <ivyauthor name="Fred Grott, GrottWorkShop" url="http://about.me/fredrott"/>
-        <description homepage="https://github.com/nicstrong/fest-assertions-android">
-        FEST assertions are incredibly easy to write: just type "assertThat" followed the actual value 
-        and a dot, and any Java IDE will show you all the assertions available for the type of the given 
-        object to verify. No more confusion about the order of the "expected" and "actual" values. 
-        Our assertions are very readable as well: they read very close to plain English, making it easier 
-        for non-technical people to read test code.
-        
-        This is an adpotation of FESt for android. Should work equally well touse with both Junit 3.8.x and 
-        Junit 4.x. No other dependencies required other than the underlying junit.
+        <description homepage="https://github.com/keyboardsurfer/Crouton">
+      Crouton is a class that can be used by Android developers that feel the need for an 
+      alternative to the Context insensitive Toast.
+
+      A Crouton will be displayed at the top of an application window. You can line up 
+      multiple Croutons for display, that will be shown one after another.
+
+
         </description>
 	</info>
 	<configurations>
@@ -51,7 +50,9 @@
          <conf name="aspectjtools" description="aspectjtools"/>
          <conf name="ejc" description-"eclipse java compiler"/>
       </configurations>
-	<publications >
-           <artifact name="fest-assert-android-2.0-SNAPSHOT" type="jar" ext="jar" conf="compile"/>
+    <publications>
+            <artifact name="crouton-1.6-javadoc" type="javadoc" ext="jar" conf="javadoc"/>
+            <artifact name="crouton-1.6-sources" type="sources" ext="jar" conf="sources"/>
+            <artifact name="crouton-1.6" type="jar" ext="jar" conf="compile"/>
     </publications>
 </ivy-module>

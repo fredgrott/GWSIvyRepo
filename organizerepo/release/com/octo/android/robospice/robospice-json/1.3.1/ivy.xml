@@ -31,13 +31,18 @@
       RoboSpice is a modular android library that makes writing asynchronous network requests easy.
         </description>
 	</info>
-	<configurations>
+<configurations>
         <conf name="runtime" description="runtime"/>
          <conf name="compile" description="for compiling"/>
          <conf name="aptfactory" description="for annotations, aop, etc"/>
          <conf name="javadoc" description="for javadoc"/>
          <conf name="sources" description="sources"/>
-         <conf name="antask" description="ant task library"/>
+         <conf name="anttask" description="ant task library"/>
+         <conf name="gradle" description="gradle plugins"/>
+         <conf name="aspectjrt" description="aop"/>
+         <conf name="aspectjweaver" description="asepctj weaver"/>
+         <conf name="aspectjtools" description="aspectjtools"/>
+         <conf name="ejc" description-"eclipse java compiler"/>
       </configurations>
 	<publications >
            <artifact name="robospice-json-1.0.0-javadoc" type="javadoc" ext="jar" conf="javadoc"/>

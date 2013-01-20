@@ -40,8 +40,14 @@
          <conf name="javadoc" description="for javadoc"/>
          <conf name="sources" description="sources"/>
          <conf name="anttask" description="ant task library"/>
+         <conf name="gradle" description="gradle plugins"/>
+         <conf name="aspectjrt" description="aop"/>
+         <conf name="aspectjweaver" description="asepctj weaver"/>
+         <conf name="aspectjtools" description="aspectjtools"/>
+         <conf name="ejc" description-"eclipse java compiler"/>
+         <conf name="jdepend" description="jdepend"/>
       </configurations>
 	<publications >
-            <artifact name="jdepend-2.9.1" type="jar" ext="jar" conf="anttask"/>
+            <artifact name="jdepend-2.9.1" type="jar" ext="jar" conf="anttask; jdepend"/>
     </publications>
 </ivy-module>
