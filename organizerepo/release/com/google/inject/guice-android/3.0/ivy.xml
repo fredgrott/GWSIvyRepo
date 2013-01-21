@@ -21,7 +21,7 @@
        xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
     <info
         organisation="com.google.inject"
-        module="guice"
+        module="guice-android"
         revision="3.0"
         publication="011013"
         status="release">

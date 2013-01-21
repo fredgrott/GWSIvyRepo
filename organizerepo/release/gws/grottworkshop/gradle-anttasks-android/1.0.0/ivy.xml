@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one
+   or more contributor license agreements.  See the NOTICE file
+   distributed with this work for additional information
+   regarding copyright ownership.  The ASF licenses this file
+   to you under the Apache License, Version 2.0 (the
+   "License"); you may not use this file except in compliance
+   with the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing,
+   software distributed under the License is distributed on an
+   "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+   KIND, either express or implied.  See the License for the
+   specific language governing permissions and limitations
+   under the License.    
+-->
+<ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+    <info
+        organisation="gws.grottworkshop"
+        module="gradle-anttasks-android"
+        revision="1.0.0"
+        publication="012014"
+        status="release">
+         <license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+        <ivyauthor name="Fred Grott, GrottWorkShop" url="http://about.me/fredrott"/>
+        <description homepage="http://shareme,.github.com">
+     group ant tasks for android projects into one module, eliminated refs to 
+     ant task that are duplicates of gradle plugins.
+        </description>
+	</info>
+	<configurations>
+	          <conf name="anttask" description="ant task dependencies"/>
+	          <conf name="jdepend" description="jdepend"/>
+	</configurations>
+	<dependencies>
+	      <dependency org="gws.grottworkshop" name="parent-javancss" revision="1.0.0" conf="anttask"/>
+	      <dependency org="net.sourceforge.pmd" name="pmd" revision="5.1.0" conf="anttask"/>
+	      <dependency org="classycle" name="classycle" conf="anttask"/>
+	      <dependency org="de.mobiletechcon" name="testconvertertask" revision="1.0.0" conf="anttask"/>
+	      <dependency org="jdepend" name="jdepend" revision="2.9.1" conf="jdepend"/>
+        <dependency org="org.doxygen" name="doxygenant" revision="1.6.1" conf="anttask"/>
+        <dependency org="org.dailydev" name="birtanttask" revision="1.0RC2" conf="anttask"/>
+	</dependencies>
+</ivy-module>
