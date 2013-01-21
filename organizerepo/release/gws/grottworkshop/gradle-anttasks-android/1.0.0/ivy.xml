@@ -37,7 +37,7 @@
 	          <conf name="jdepend" description="jdepend"/>
 	</configurations>
 	<dependencies>
-	      <dependency org="gws.grottworkshop" name="parent-javancss" revision="1.0.0" conf="anttask"/>
+	      <dependency org="gws.grottworkshop" name="parent-javancss" revision="32.53" conf="anttask"/>
 	      <dependency org="net.sourceforge.pmd" name="pmd" revision="5.1.0" conf="anttask"/>
 	      <dependency org="classycle" name="classycle" conf="anttask"/>
 	      <dependency org="de.mobiletechcon" name="testconvertertask" revision="1.0.0" conf="anttask"/>

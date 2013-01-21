@@ -39,13 +39,13 @@
 	</configurations>
 	<dependencies>
 	    <dependency org="classycle" name="classycle" revision="1.4.1" conf="anttask"/>
-	    <dependency org="gws.grottworkshop" name="parent-javancss" revision="1.0.0" conf="anttask"/>
+	    <dependency org="gws.grottworkshop" name="parent-javancss" revision="32.53" conf="anttask"/>
 	    <dependency org="jdepend" name="jdepend" revision="2.9.1" conf="jdepend"/>
 	    <dependency org="org.doxygen" name="doxygenant" revision="1.6.1" conf="anttask"/>
 	    <dependency org="org.dailydev" name="birtanttask" revision="1.0RC2" conf="anttask"/>
 	    <dependency org="com.puppycrawl.tools" name="checkstyle" revision="5.6" conf="anttask"/>
 	    <dependency org="net.sourceforge.pmd" name="pmd" revision="5.1.0" conf="anttask"/>
-	     <dependency org="gws.grottworkshop" name="parent-log4ant" revision="1.0.0" conf="anttask"/>
+	     <dependency org="gws.grottworkshop" name="parent-log4ant" revision="3.5.0b2" conf="anttask"/>
 	    <dependency org="net.sourceforge.findbugs" name="findbugs" revision="2.0.2" conf="anttask"/>
 	    <dependency org="net.sf.antcontrib" name="antcontrib" revision="1.0b3" conf="anttask"/>
 	    <dependency org="de.mobiletechcon" name="testconvertertask" revision="1.0.0" conf="anttask"/>
