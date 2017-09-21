@@ -43,7 +43,7 @@ for unit testing frameworks.
          <conf name="aspectjrt" description="aop"/>
          <conf name="aspectjweaver" description="asepctj weaver"/>
          <conf name="aspectjtools" description="aspectjtools"/>
-         <conf name="ejc" description-"eclipse java compiler"/>
+         <conf name="ejc" description="eclipse java compiler"/>
          <conf name="jdepend" description="jdepend"/>
       </configurations>
 	<publications >

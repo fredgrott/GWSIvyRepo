@@ -42,7 +42,7 @@
          <conf name="aspectjrt" description="aop"/>
          <conf name="aspectjweaver" description="asepctj weaver"/>
          <conf name="aspectjtools" description="aspectjtools"/>
-         <conf name="ejc" description-"eclipse java compiler"/>
+         <conf name="ejc" description="eclipse java compiler"/>
       </configurations>
 	<publications >
       <artifact name="cucumber-core-1.1.1" type="jar" ext="jar"  conf="compile"/>

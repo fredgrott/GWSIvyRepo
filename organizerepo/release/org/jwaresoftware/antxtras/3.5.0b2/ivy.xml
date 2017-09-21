@@ -25,7 +25,7 @@
         revision="3.5.0b2"
         publication="011513"
         status="release">
-         <license name="GNU LGPL 2.1 License" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+        <license name="GNU LGPL 2.1 License" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
         <ivyauthor name="Fred Grott, GrottWorkShop" url="http://about.me/fredrott"/>
         <description homepage="http://jwaresoftware.org/wiki/antxtras/home">
   JWare/AntXtras Foundation (AntXtras) is both a powerful Ant extension library as well as a 
@@ -34,31 +34,30 @@
   the other Ant-related packages you will find on this site; packages like Svn4Ant, Log4Ant, and 
   PEd4Ant. As a collection of components (an antlib), AntXtras enhances Ant with a variety of 
   new types, conditions, tasks, and behaviors. 
-
-   </description>
-	</info>
-	<configurations>
+	</description>
+    </info>
+    <configurations>
         <conf name="runtime" description="runtime"/>
-         <conf name="compile" description="for compiling"/>
-         <conf name="aptfactory" description="for annotations, aop, etc"/>
-         <conf name="javadoc" description="for javadoc"/>
-         <conf name="sources" description="sources"/>
-         <conf name="anttask" description="ant task library"/>
-         <conf name="gradle" description="gradle plugins"/>
-         <conf name="aspectjrt" description="aop"/>
-         <conf name="aspectjweaver" description="asepctj weaver"/>
-         <conf name="aspectjtools" description="aspectjtools"/>
-         <conf name="ejc" description-"eclipse java compiler"/>
-      </configurations>
-	<publications >
-     <artifact name="jcl-over-slf4j" type="jar" ext="jar" conf="anttask"/>
-     <artifact name="json_simple" type="jar" ext="jar" conf="anttask"/>
-     <artifact name="jul-to-slf4j" type="jar" ext="jar" conf="anttask"/>
-     <artifact name="jw-antxtras-antunit" type="jar" ext="jar" conf="antask"/>
-     <artifact name="jw-antxtras-advanced" type="jar" ext="jar"conf="anttask" />
-     <artifact name="jw-antxtras" type="jar" ext="jar" conf="anttask"/>
-     <artifact name="slf4j-api" type="jar" ext="jar" conf="anttask"/>
-     <artifact name="slf4j-ext" type="jar" ext="jar" conf="anttask"/>
-     <artifact name="slf4j-log4j12" type="jar" ext="jar" conf="anttask"/>
-      </publications>
+        <conf name="compile" description="for compiling"/>
+        <conf name="aptfactory" description="for annotations, aop, etc"/>
+        <conf name="javadoc" description="for javadoc"/>
+        <conf name="sources" description="sources"/>
+        <conf name="anttask" description="ant task library"/>
+        <conf name="gradle" description="gradle plugins"/>
+        <conf name="aspectjrt" description="aop"/>
+        <conf name="aspectjweaver" description="asepctj weaver"/>
+        <conf name="aspectjtools" description="aspectjtools"/>
+        <conf name="ejc" description="eclipse java compiler"/>
+    </configurations>
+    <publications>
+        <artifact name="jcl-over-slf4j" type="jar" ext="jar" conf="anttask"/>
+	<artifact name="json_simple" type="jar" ext="jar" conf="anttask"/>
+	<artifact name="jul-to-slf4j" type="jar" ext="jar" conf="anttask"/>
+	<artifact name="jw-antxtras-antunit" type="jar" ext="jar" conf="antask"/>
+	<artifact name="jw-antxtras-advanced" type="jar" ext="jar" conf="anttask"/>
+	<artifact name="jw-antxtras" type="jar" ext="jar" conf="anttask"/>
+	<artifact name="slf4j-api" type="jar" ext="jar" conf="anttask"/>
+	<artifact name="slf4j-ext" type="jar" ext="jar" conf="anttask"/>
+	<artifact name="slf4j-log4j12" type="jar" ext="jar" conf="anttask"/>
+    </publications>
 </ivy-module>
