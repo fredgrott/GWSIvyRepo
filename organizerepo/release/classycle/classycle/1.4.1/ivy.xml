@@ -37,21 +37,21 @@
       dependency definition file. Dependency checking helps to monitor whether certain 
        architectural constrains (e.g. in a layered architecture) are fulfilled or not.
         </description>
-	</info>
-	<configurations>
+    </info>
+    <configurations>
         <conf name="runtime" description="runtime"/>
-         <conf name="compile" description="for compiling"/>
-         <conf name="aptfactory" description="for annotations, aop, etc"/>
-         <conf name="javadoc" description="for javadoc"/>
-         <conf name="sources" description="sources"/>
-         <conf name="anttask" description="ant task library"/>
-         <conf name="gradle" description="gradle plugins"/>
-         <conf name="aspectjrt" description="aop"/>
-         <conf name="aspectjweaver" description="asepctj weaver"/>
-         <conf name="aspectjtools" description="aspectjtools"/>
-         <conf name="ejc" description-"eclipse java compiler"/>
-      </configurations>
-	<publications ">
-           <artifact name="classycle-1.4.1" type="jar" ext="jar" conf="anttask"/>
+	<conf name="compile" description="for compiling"/>
+	<conf name="aptfactory" description="for annotations, aop, etc"/>
+	<conf name="javadoc" description="for javadoc"/>
+	<conf name="sources" description="sources"/>
+	<conf name="anttask" description="ant task library"/>
+	<conf name="gradle" description="gradle plugins"/>
+	<conf name="aspectjrt" description="aop"/>
+	<conf name="aspectjweaver" description="asepctj weaver"/>
+	<conf name="aspectjtools" description="aspectjtools"/>
+	<conf name="ejc" description="eclipse java compiler"/>
+    </configurations>
+    <publications>
+        <artifact name="classycle-1.4.1" type="jar" ext="jar" conf="anttask"/>
     </publications>
 </ivy-module>

@@ -27,16 +27,16 @@
         status="release">
          <license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
         <ivyauthor name="Fred Grott, GrottWorkShop" url="http://about.me/fredrott"/>
-        <description homepage="http://shareme,.github.com">
-      group roboguice deps together.
+        <description homepage="http://shareme.github.com">
+	  group roboguice deps together.
         </description>
-	</info>
-	<configuraitons>
-	         <conf name="compile" description="compile"/>
-	</configurations>
-	<dependencies>
-	           <dependency org="com.google.inject" name="guice-android" revision="3.0.0" conf="compile"/>
-	           <dependency org="com.google.code.findbugs" name="jsr305" revisions="2.0.1" conf="compile"/>
-	           <dependency org="roboguice" name="roboguice" revision="2.0.0" conf="compile"/>
-	  </dependencies>
+    </info>
+    <configurations>
+        <conf name="compile" description="compile"/>
+    </configurations>
+    <dependencies>
+        <dependency org="com.google.inject" name="guice-android" revision="3.0.0" conf="compile"/>
+	<dependency org="com.google.code.findbugs" name="jsr305" revisions="2.0.1" conf="compile"/>
+	<dependency org="roboguice" name="roboguice" revision="2.0.0" conf="compile"/>
+    </dependencies>
 </ivy-module>
